@@ -62,7 +62,13 @@ namespace ConsoleAppGeometriH2
 
             #endregion
 
-            #region ratvinklet trekant
+            #region retvinklet trekant
+
+            Square retvinkletTrekant = new RetvinkletTrekant(5, 6);
+
+            Console.WriteLine("retvinklert trekant areal er " + retvinkletTrekant.Areal().ToString("#.##"));
+            Console.WriteLine("retvinklert trekant omkredesen er " + retvinkletTrekant.Omkredsen().ToString("#.##"));
+
             #endregion
 
             Console.ReadKey();
