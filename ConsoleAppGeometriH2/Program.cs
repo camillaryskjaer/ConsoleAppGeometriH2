@@ -55,8 +55,14 @@ namespace ConsoleAppGeometriH2
 
             #region Rektangel
 
+            Square rektangel = new Rektangel(2,4);
 
+            Console.WriteLine("Rektangel omkreds er " + rektangel.Omkredsen().ToString("#.##"));
+            Console.WriteLine("Rektengel areal er " + rektangel.Areal().ToString("#.##"));
 
+            #endregion
+
+            #region ratvinklet trekant
             #endregion
 
             Console.ReadKey();
