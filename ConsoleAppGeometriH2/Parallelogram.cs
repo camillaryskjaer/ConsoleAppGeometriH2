@@ -35,13 +35,14 @@ namespace ConsoleAppGeometriH2
         }
 
         /// <summary>
-        /// Omkreds af 
+        /// Omkreds formel
+        /// O = 2 * a + 2 * b
         /// </summary>
         /// <returns></returns>
         public override double Omkredsen()
         {
-
-            return base.Omkredsen();
+            double omkreds = 2 * sideA + 2 * sideB;
+            return omkreds;
         }
     }
 }

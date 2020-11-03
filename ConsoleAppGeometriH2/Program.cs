@@ -10,6 +10,9 @@ namespace ConsoleAppGeometriH2
     {
         static void Main(string[] args)
         {
+
+            #region Square
+
             #region Objecter
             Square square0 = new Square(10);
             Square square1 = new Square(20);
@@ -31,12 +34,20 @@ namespace ConsoleAppGeometriH2
             Console.WriteLine("kvadratens Areal er " + square3.Areal());
             #endregion
 
+            #endregion 
+
             #region Parallelogram
 
             Square parallelogram = new Parallelogram(3,5,20);
 
+            Console.WriteLine("Parallelogram areal er " + parallelogram.Areal().ToString("#.##"));
+            Console.WriteLine("Parallelogram omkredesn er " + parallelogram.Omkredsen().ToString("#.##"));
 
-            Console.WriteLine("Parallelogram areal er " + parallelogram.Areal());
+            #endregion
+
+            #region Trapez
+
+
 
             #endregion
 

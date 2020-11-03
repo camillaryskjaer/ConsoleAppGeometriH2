@@ -12,7 +12,18 @@ namespace ConsoleAppGeometriH2
 
         public Trapez(int a) : base(a)
         {
+            sideA = a;
+        }
 
+
+        /// <summary>
+        /// Arealet
+        /// A = ½ * (a + b) * h
+        /// </summary>
+        /// <returns></returns>
+        public override double Areal()
+        {
+            return base.Areal();
         }
     }
 }
