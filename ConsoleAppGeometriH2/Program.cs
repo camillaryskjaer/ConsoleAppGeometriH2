@@ -47,6 +47,14 @@ namespace ConsoleAppGeometriH2
 
             #region Trapez
 
+            Square trapez = new Trapez(10, 9, 8, 9);
+
+            Console.WriteLine("Arealet for trapezen er " + trapez.Areal().ToString("#.##"));
+
+            #endregion
+
+            #region Rektangel
+
 
 
             #endregion
