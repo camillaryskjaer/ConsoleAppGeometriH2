@@ -8,6 +8,7 @@ namespace ConsoleAppGeometriH2
 {
     class Trapez : Square
     {
+    //Side A eksisterer jo allerede i superklassen, hvorfor er den med her?
         private int sideA;
         private int sideB { get; set; }
         private int sideC { get; set; }
